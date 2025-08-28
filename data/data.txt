@@ -1,0 +1,65 @@
+this file consist of a hotel information.
+hotel_name: Grand Hotel
+location: Downtown City Center
+rating: 4.5 stars
+amenities: Free Wi-Fi, Swimming Pool, Spa, Fitness Center, Restaurant
+contact_info: 
+  phone: +1-234-567-8900
+  email: info@grandhotel.com
+check_in_time: 3:00 PM
+check_out_time: 11:00 AM
+room_types:
+  - type: Single Room
+    price_per_night: $100
+    max_occupancy: 1
+  - type: Double Room
+    price_per_night: $150
+    max_occupancy: 2
+  - type: Suite
+    price_per_night: $250
+    max_occupancy: 4
+booking_policy:
+    cancellation: Free cancellation up to 24 hours before check-in
+    payment: Full payment required at check-in
+    pets: Pets allowed with a fee of $20 per night
+reviews:
+    - reviewer: John Doe
+        rating: 5 stars
+        comment: "Amazing stay! The staff was very friendly and the amenities were top-notch."
+    - reviewer: Jane Smith
+        rating: 4 stars
+        comment: "Great location and comfortable rooms, but the Wi-Fi was a bit slow."
+    - reviewer: Alice Johnson
+        rating: 3 stars
+        comment: "Decent hotel, but could use some updates in the room decor."
+special_offers:
+    - offer: "Stay 3 nights, get the 4th night free"
+      valid_until: "2024-12-31"
+    - offer: "20% off for early bookings made 30 days in advance"
+      valid_until: "2024-11-30"
+location_map:
+  latitude: 40.712776
+    longitude: -74.005974
+nearby_attractions:
+    - name: City Park
+        distance: 0.5 miles
+    - name: Museum of Art
+        distance: 1.2 miles
+    - name: Shopping Mall
+        distance: 0.8 miles
+    - name: Central Station
+        distance: 0.3 miles
+transportation_options:
+    - type: Taxi
+      availability: 24/7
+      contact: +1-234-567-8901
+    - type: Public Bus
+      routes: "Route 1, Route 2, Route 3"
+      frequency: Every 15 minutes
+    - type: Subway
+      nearest_station: Downtown Station
+      distance: 0.2 miles
+emergency_contacts:
+    fire_department: +1-234-567-8910
+    police_department: +1-234-567-8920
+    hospital: +1-234-567-8930
