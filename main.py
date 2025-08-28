@@ -1,0 +1,1 @@
+print("Welcom to learning langchain with project structure!")
