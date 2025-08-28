@@ -18,5 +18,3 @@ for message in conversation:
         print(f"AI: {message.content}")
     elif isinstance(message, SystemMessage):
         print(f"System: {message.content}")
-
-

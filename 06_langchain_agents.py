@@ -10,6 +10,7 @@ llm = GoogleGenerativeAI(model="gemini-1.5-flash",
                          google_api_key=os.getenv("GEMINI_API_KEY"))
 
 
+# tool creating for addition of two numbers
 @tool
 def add_numbers_tool(input_data: str) -> str:
     """ addition of two numbers. """

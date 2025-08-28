@@ -20,7 +20,7 @@ llm = GoogleGenerativeAI(
 
 
 while True:
-    user_input = input("You: ")
+    user_input = input("You:")
     if user_input == "exit":
         break
     chat_prompt_template.append(HumanMessage(content=user_input))
@@ -28,5 +28,6 @@ while True:
     print("Chat Prompt: ",chat_prompt)
     response = llm.invoke(chat_prompt)
     print("LLM Response",response) 
+    
     chat_prompt_template.append(AIMessage(content=response)) 
 
